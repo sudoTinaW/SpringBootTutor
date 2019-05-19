@@ -26,4 +26,8 @@ public class CourseService {
         return courseRepository.findCourseByName(input);
     }
 
+    public void addCourse(Course course){
+        courseRepository.addCourse(course);
+    }
+
 }

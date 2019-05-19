@@ -43,4 +43,8 @@ public class CourseRepository {
 
         return new ArrayList<Course>();
     }
+
+    public void addCourse(Course course) {
+        courses.add(course);
+    }
 }
